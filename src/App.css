@@ -457,3 +457,27 @@ textarea {
     transform: translateY(0);
   }
 }
+
+/* Mobile */
+
+@media (max-width: 800px) {
+  .navbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .controls,
+  .grid-2,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .comment-form,
+  .form {
+    flex-direction: column;
+  }
+
+  .form input {
+    max-width: 100%;
+  }
+}
