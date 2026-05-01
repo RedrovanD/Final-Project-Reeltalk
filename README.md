@@ -82,6 +82,11 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+## Deployment
+
+Live App: [YOUR_NETLIFY_URL_HERE](https://timely-brioche-776817.netlify.app/)
+GitHub Repo: YOUR_GITHUB_REPO_URL_HERE
+
 ## License
 
     Copyright [2026] [David Redrovan]
