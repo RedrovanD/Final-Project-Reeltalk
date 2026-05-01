@@ -137,3 +137,46 @@ button:hover {
   padding: 24px;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.11);
 }
+
+.hero,
+.hero-card {
+  margin-bottom: 20px;
+  background-image: radial-gradient(
+    circle at top right,
+    rgba(246, 183, 60, 0.35),
+    transparent 40%
+  );
+  text-align: center;
+}
+
+.hero h1,
+.hero-card h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1;
+  margin: 0 0 10px;
+}
+
+.hero-card p {
+  color: var(--accent2);
+  font-weight: 600;
+}
+
+.eyebrow,
+.flag {
+  background: var(--accent2);
+  color: white;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-weight: 800;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+/* Home controls */
+
+.controls {
+  display: grid;
+  grid-template-columns: 1.6fr repeat(3, 1fr) auto;
+  gap: 10px;
+  margin: 18px 0;
+}
