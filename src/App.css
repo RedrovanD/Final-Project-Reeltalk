@@ -72,3 +72,68 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
+
+.nav-button,
+.button,
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #14213d;
+  padding: 11px 16px;
+  text-decoration: none;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.nav-button:hover,
+.button:hover,
+button:hover {
+  filter: brightness(0.92);
+  transform: translateY(-1px);
+}
+
+.secondary {
+  background: var(--accent2);
+  color: white;
+}
+
+.danger {
+  background: var(--danger);
+  color: white;
+}
+
+/* Layout */
+
+.page {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  animation: fade 0.25s ease-in;
+}
+
+.narrow {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+/* Cards */
+
+.hero,
+.hero-card,
+.post-card,
+.form-card,
+.detail-card,
+.comments-card,
+.card {
+  background: var(--card);
+  border: 2px solid rgba(20, 54, 66, 0.12);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.11);
+}
