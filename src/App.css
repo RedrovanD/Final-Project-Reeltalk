@@ -330,3 +330,31 @@ textarea {
   border-radius: 12px;
   margin: 16px 0;
 }
+
+/* Comments */
+
+.comments-card {
+  margin-top: 20px;
+}
+
+.comments-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 10px;
+}
+
+.comment {
+  border-top: 1px solid rgba(20, 54, 66, 0.14);
+  padding: 14px 0;
+}
+
+.text-danger {
+  background: transparent;
+  color: var(--danger);
+  padding: 4px 0;
+}
