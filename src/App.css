@@ -1,1 +1,26 @@
+:root {
+  --bg1: #c7f4ff;
+  --bg2: #effbff;
+  --ink: #143642;
+  --card: #ffffff;
+  --accent: #f6b73c;
+  --accent2: #2b7a78;
+  --danger: #c0392b;
+}
 
+body[data-theme='sunset'] {
+  --bg1: #ffd6a5;
+  --bg2: #fff1e6;
+  --ink: #3d2c2e;
+  --accent: #ff7b54;
+  --accent2: #6a994e;
+}
+
+body[data-theme='night'] {
+  --bg1: #102a43;
+  --bg2: #1b4965;
+  --ink: #f0fbff;
+  --card: #243b53;
+  --accent: #ffd166;
+  --accent2: #89c2d9;
+}
