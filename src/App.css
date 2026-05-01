@@ -233,3 +233,61 @@ textarea {
 .toggle input {
   width: auto;
 }
+
+/* Feed */
+
+.feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.post-card {
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  color: rgba(20, 54, 66, 0.75);
+  font-size: 0.9rem;
+}
+
+.post-title {
+  display: block;
+  margin: 16px 0;
+  font-size: 1.35rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.post-stats,
+.actions,
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.post-stats span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.preview {
+  color: rgba(20, 54, 66, 0.8);
+}
+
+.thumb-row,
+.meta,
+.hint {
+  opacity: 0.75;
+}
