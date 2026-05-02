@@ -2,9 +2,7 @@
 
 Submitted by: **David Redrovan**
 
-This web app: ** ReelTalk is a full-stack React application that allows users to create, explore, and interact with fishing-related posts. Built with Supabase, it supports authentication, real-time database operations, and image uploads. Users can upvote, comment, edit, and delete posts.
-
-The app also features an AI-powered post summarizer using a Supabase Edge Function and the OpenAI API, along with a Fish Finder tool that integrates with the Wikipedia API to provide quick species information. **
+This web app: **insert description**
 
 Time spent: **5** hours spent in total
 
